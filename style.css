@@ -1,0 +1,1070 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth; /* плавный скролл к секциям */
+}
+
+html,
+body {
+  /* set page width same as .main-container to avoid side spaces */
+  width: 1920px !important;
+  max-width: 1920px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+  background: revert;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1920px;
+  height: 3921px;
+  margin: 0;
+  font-size: 0px;
+  background: #1c2b42;
+  overflow: hidden;
+}
+.welcome-to-economily {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 485px;
+  height: 49px;
+  margin: 476px 0 0 737px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.76px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 76;
+}
+.about-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 190px;
+  height: 49px;
+  margin: 490px 0 0 865px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.76px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 74;
+}
+.data-driven-view {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 1062px;
+  height: 523px;
+  margin: 102px 0 0 434px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: justified;
+  z-index: 73;
+}
+.rectangle {
+  position: relative;
+  width: 100%;
+  left: 0;
+  height: 1931px;
+  margin: 58px 0 0 0;
+  font-size: 0px;
+  background: #5c6b81;
+  z-index: 6;
+  overflow: visible auto;
+}
+.news {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 127px;
+  height: 49px;
+  margin: 55px 0 0 895px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.76px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 72;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1188px;
+  height: 538px;
+  margin: 50px 0 0 357px;
+  z-index: 66;
+}
+.rectangle-1 {
+  flex-shrink: 0;
+  position: relative;
+  width: 312px;
+  height: 538px;
+  background: #204c76;
+  z-index: 66;
+  border-radius: 10px;
+}
+.image {
+  position: relative;
+  width: 282px;
+  height: 293.886px;
+  margin: 15px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/npvKchrJOU.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 71;
+  border-radius: 10px;
+}
+.central-bank-update {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 264px;
+  height: 35.488px;
+  margin: 24.398px 0 0 14px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 70;
+  overflow: hidden;
+}
+.deputy-chairmen-appointments {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 253px;
+  height: 67px;
+  margin: 7.227px 0 0 15px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justified;
+  z-index: 69;
+}
+.rectangle-2 {
+  position: relative;
+  width: 168px;
+  height: 40px;
+  margin: 26px 0 0 72px;
+  background: #ffffff;
+  z-index: 67;
+  border-radius: 10px;
+}
+.more-news {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  top: 8px;
+  left: 26px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 68;
+}
+.rectangle-3 {
+  flex-shrink: 0;
+  position: relative;
+  width: 312px;
+  height: 538px;
+  background: #1f4c75;
+  z-index: 59;
+  border-radius: 10px;
+}
+.image-4 {
+  position: relative;
+  width: 282px;
+  height: 265px;
+  margin: 15px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/c0aCpSs0Vq.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 64;
+  border-radius: 10px;
+}
+.world-first-company {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 285px;
+  height: 48px;
+  margin: 7px 0 0 12px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: left;
+  z-index: 63;
+}
+.shares-rose {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 269px;
+  height: 97px;
+  margin: 7px 0 0 15px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justified;
+  z-index: 62;
+}
+.rectangle-5 {
+  position: relative;
+  width: 168px;
+  height: 40px;
+  margin: 30px 0 0 65px;
+  background: #ffffff;
+  z-index: 60;
+  border-radius: 10px;
+}
+.more-news-6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  top: 8px;
+  left: 26px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 61;
+}
+.rectangle-7 {
+  flex-shrink: 0;
+  position: relative;
+  width: 312px;
+  height: 538px;
+  background: #204c76;
+  z-index: 52;
+  border-radius: 10px;
+}
+.image-8 {
+  position: relative;
+  width: 282px;
+  height: 265px;
+  margin: 15px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/j2QAR44L1d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 57;
+  border-radius: 10px;
+}
+.statistics-reports {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 260px;
+  height: 55.33px;
+  margin: 7px 0 0 16px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 56;
+  overflow: hidden;
+}
+.industry-contribution {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 269px;
+  height: 100px;
+  margin: 3.67px 0 0 21px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justified;
+  z-index: 55;
+}
+.rectangle-9 {
+  position: relative;
+  width: 168px;
+  height: 40px;
+  margin: 23px 0 0 73px;
+  background: #ffffff;
+  z-index: 53;
+  border-radius: 10px;
+}
+.more-news-a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  top: 8px;
+  left: 26px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 54;
+}
+.articles {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 171px;
+  height: 49px;
+  margin: 34px 0 0 878px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.76px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 7;
+}
+.flex-row-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1188px;
+  height: 550px;
+  margin: 34px 0 0 357px;
+  z-index: 43;
+}
+.rectangle-b {
+  flex-shrink: 0;
+  position: relative;
+  width: 312px;
+  height: 550px;
+  background: #1c2b42;
+  z-index: 43;
+  border-radius: 10px;
+}
+.genz-genm {
+  position: relative;
+  width: 282px;
+  height: 265px;
+  margin: 15px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/Vv7dGOcxRM.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 45;
+  border-radius: 10px;
+}
+.generation-investing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 250px;
+  height: 32px;
+  margin: 13px 0 0 31px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 46;
+  overflow: hidden;
+}
+.investment-behaviors {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 264px;
+  height: 144px;
+  margin: 11px 0 0 26px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  z-index: 44;
+}
+.rectangle-c {
+  position: relative;
+  width: 168px;
+  height: 40px;
+  margin: 10px 0 0 72px;
+  background: #ffffff;
+  z-index: 48;
+  border-radius: 10px;
+}
+.more-articles {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 139px;
+  height: 24px;
+  top: 8px;
+  left: 15px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 49;
+}
+.rectangle-d {
+  flex-shrink: 0;
+  position: relative;
+  width: 312px;
+  height: 550px;
+  background: #1c2b42;
+  z-index: 35;
+  border-radius: 10px;
+}
+.empty {
+  position: relative;
+  width: 282px;
+  height: 265px;
+  margin: 15px 0 0 15px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/Y8xOUc6jVS.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 37;
+  border-radius: 10px;
+}
+.global-financial-crisis {
+  display: block;
+  position: relative;
+  height: 16px;
+  margin: 21px 0 0 26px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 38;
+}
+.housing-market-collapse {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 264px;
+  height: 126px;
+  margin: 19px 0 0 26px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  z-index: 36;
+}
+.rectangle-e {
+  position: relative;
+  width: 168px;
+  height: 40px;
+  margin: 28px 0 0 72px;
+  background: #ffffff;
+  z-index: 40;
+  border-radius: 10px;
+}
+.learn-more {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 139px;
+  height: 24px;
+  top: 8px;
+  left: 15px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 41;
+}
+.rectangle-f {
+  flex-shrink: 0;
+  position: relative;
+  width: 312px;
+  height: 550px;
+  background: #1c2b42;
+  z-index: 27;
+  border-radius: 10px;
+}
+.picture {
+  position: relative;
+  width: 282px;
+  height: 265px;
+  margin: 15px 0 0 16px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/ttRhOoBw0G.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 29;
+  border-radius: 10px;
+}
+.theory-saved-billions {
+  display: block;
+  position: relative;
+  height: 17px;
+  margin: 20px 0 0 54px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
+.auction-theory {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 264px;
+  height: 126px;
+  margin: 19px 0 0 23px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  z-index: 28;
+}
+.rectangle-10 {
+  position: relative;
+  width: 168px;
+  height: 40px;
+  margin: 28px 0 0 73px;
+  background: #ffffff;
+  z-index: 32;
+  border-radius: 10px;
+}
+.more-articles-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 139px;
+  height: 24px;
+  top: 8px;
+  left: 15px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 33;
+}
+.analyze {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 176px;
+  height: 49px;
+  margin: 50px 0 0 876px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.76px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 50;
+}
+.flex-row-e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1205px;
+  height: 351px;
+  margin: 50px 0 0 357px;
+  z-index: 21;
+}
+.rectangle-12 {
+  flex-shrink: 0;
+  position: relative;
+  width: 330px;
+  height: 351px;
+  background: #204c76;
+  z-index: 9;
+  border-radius: 10px;
+}
+.august {
+  position: relative;
+  width: 298.269px;
+  height: 171px;
+  margin: 31px 0 0 15.865px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/PmxkVWZR44.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+  border-radius: 10px;
+}
+.weekly-review-august {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 244.327px;
+  height: 16px;
+  margin: 13px 0 0 38.077px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.rectangle-13 {
+  position: relative;
+  width: 177.692px;
+  height: 40px;
+  margin: 33px 0 0 71.923px;
+  background: #ffffff;
+  z-index: 10;
+  border-radius: 10px;
+}
+.more-analyze {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 154px;
+  height: 24px;
+  top: 8px;
+  left: 14.077px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rectangle-14 {
+  flex-shrink: 0;
+  position: relative;
+  width: 330px;
+  height: 351px;
+  background: #204c76;
+  z-index: 15;
+  border-radius: 10px;
+}
+.november {
+  position: relative;
+  width: 306px;
+  height: 171px;
+  margin: 29px 0 0 12px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/WwZQQnXVwB.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+  border-radius: 10px;
+}
+.weekly-review-nov {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 244.327px;
+  height: 16px;
+  margin: 15px 0 0 43px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 19;
+}
+.rectangle-15 {
+  position: relative;
+  width: 177.692px;
+  height: 40px;
+  margin: 33px 0 0 76px;
+  background: #ffffff;
+  z-index: 16;
+  border-radius: 10px;
+}
+.more-analyze-16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 169px;
+  height: 24px;
+  top: 8px;
+  left: 4px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 17;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rectangle-17 {
+  flex-shrink: 0;
+  position: relative;
+  width: 330px;
+  height: 351px;
+  background: #204c76;
+  z-index: 21;
+  border-radius: 10px;
+}
+.december {
+  position: relative;
+  width: 306px;
+  height: 171px;
+  margin: 29px 0 0 16px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/8s3YScaeRa.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+  border-radius: 10px;
+}
+.weekly-review-december {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 261px;
+  height: 16px;
+  margin: 15px 0 0 34px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.847px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 24;
+}
+.rectangle-18 {
+  position: relative;
+  width: 177.692px;
+  height: 40px;
+  margin: 33px 0 0 73px;
+  background: #ffffff;
+  z-index: 22;
+  border-radius: 10px;
+}
+.more-analyze-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 175px;
+  height: 24px;
+  top: 8px;
+  left: 1px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 23;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rectangle-1a {
+  position: relative;
+  width: 1920px;
+  left: 0;
+  height: 243px;
+  margin: 0 0 0 0;
+  font-size: 0px;
+  background: #000000;
+  overflow: visible auto;
+}
+.follow-us-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 528px;
+  height: 49px;
+  margin: 44px 0 0 696px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.76px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.vector {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  width: 2.76%;
+  height: 21.4%;
+  top: 53.09%;
+  left: 36.25%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/ZKYzOGc0sP.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.vector-1b {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  width: 2.71%;
+  height: 21.4%;
+  top: 53.5%;
+  left: 61.41%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/fTfOjjC89y.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 4;
+}
+.vector-1c {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  width: 2.97%;
+  height: 16.46%;
+  top: 55.56%;
+  left: 48.65%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/fjkmzkpPbZ.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 3;
+}
+.img-removebg-preview {
+  position: absolute;
+  width: 136px;
+  height: 136px;
+  top: -28px;
+  left: 325px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/hhbvj2rXPE.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 82;
+}
+.rectangle-1d {
+  position: absolute;
+  width: 1920px;
+  height: 76px;
+  top: 0;
+  left: 0;
+  background: #e5e5e5;
+  z-index: 77;
+}
+.economily {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 49px;
+  top: 10px;
+  left: 429px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.76px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 81;
+}
+.analyze-1e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 21px;
+  left: 1391px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 78;
+}
+.articles-1f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 21px;
+  left: 1267px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 79;
+}
+.news-20 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 21px;
+  left: 1152px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 80;
+}
+.rectangle-21 {
+  position: absolute;
+  width: 100%;
+  height: 850px;
+  top: 76px;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-28/W9MoUqSj2O.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 75;
+}
+
+/* Стили ссылок навигации */
+.nav-link {
+  text-decoration: none;  /* без подчеркивания */
+  color: inherit;         /* цвет как у текста в макете */
+  cursor: pointer;        /* курсор-рука */
+  display: inline-block;  /* чтобы вести себя как пункт меню */
+}
+.nav-link:hover {
+  opacity: 0.8;           /* легкий ховер-эффект */
+}
+
+/* Отступ для секций при прокрутке, чтобы заголовки не перекрывались хедером */
+#news-section,
+#articles-section,
+#analyze-section {
+  scroll-margin-top: 90px; /* чтобы заголовок не уезжал под верхнюю панель */
+}
+
+/* Стили кликабельных пунктов меню (верхняя панель) */
+.news-20,
+.articles-1f,
+.analyze-1e {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.news-20:hover,
+.articles-1f:hover,
+.analyze-1e:hover {
+  opacity: 0.7; /* легкий эффект при наведении */
+}
+
+.more-news,
+.more-news-6,
+.more-news-a,
+.more-articles,
+.learn-more,
+.more-articles-11 {
+  text-decoration: none;
+  cursor: pointer;
+}
